@@ -8,4 +8,7 @@
   -->
 <object name="portal_types" meta_type="Plone Types Tool">
   <!-- -*- extra stuff goes here -*- -->
+  <object name="collective.qabank.answer" meta_type="Dexterity FTI" />
+  <object name="collective.qabank.question" meta_type="Dexterity FTI" />
+  <object name="collective.qabank.qabank" meta_type="Dexterity FTI" />
 </object>
