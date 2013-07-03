@@ -9,4 +9,3 @@ class Index(dexterity.DisplayForm):
     grok.require('zope2.View')
     grok.template('question_view')
     grok.name('view')
-
