@@ -33,6 +33,7 @@ setup(name='collective.qabank',
           'collective.dexteritytextindexer',
           'plone.app.multilingual',
           'plone.multilingualbehavior',
+          'collective.miscbehaviors'
           # -*- Extra requirements: -*-
       ],
       extras_require={
