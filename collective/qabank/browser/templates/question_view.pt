@@ -22,8 +22,8 @@
         <tal:block repeat="value context/values">
     
     <fieldset class="qabank-fieldset">
-        <div >
-            <h3 class="answer-title" tal:content="value/title"/>    
+        <div>
+            <div class="answer-title" tal:content="value/title"/>    
             <div class="answer-text"tal:content="structure value/text"/>    
         <div>
     </fieldset>

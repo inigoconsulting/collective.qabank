@@ -14,20 +14,34 @@
 
 @mixin block 
 {
-    @include border-radius(4px, 4px);
+    @include border-radius(5px, 5px);
     padding: 10px;
 
 }
+@mixin qa-title
+{
+     font-family: 'Open Sans Condensed', Arial, sans-serif; 
+    font-size: 20px;
+}
+
 .answer-title
 {
     @include block;
+    @include qa-title;
     background-color:rgb(198, 198, 198);
 
 }
 .answer-text
 {
-    @include single-box-shadow(grey, 2px);
+    @include single-box-shadow;
     @include block;
     margin-top: 3px;
 
 }
+.question-listing
+{
+    padding: 20px;
+    border-bottom: 1px solid #ededed;
+    display:block;
+    @include qa-title
+ }

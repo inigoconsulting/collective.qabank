@@ -7,23 +7,34 @@
   border-width: 0;
 }
 
-/* line 22, sass/qabank.scss */
+/* line 28, sass/qabank.scss */
 .answer-title {
-  -webkit-border-radius: 4px 4px;
-  -moz-border-radius: 4px / 4px;
-  border-radius: 4px / 4px;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px / 5px;
+  border-radius: 5px / 5px;
   padding: 10px;
+  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-size: 20px;
   background-color: #c6c6c6;
 }
 
-/* line 28, sass/qabank.scss */
+/* line 35, sass/qabank.scss */
 .answer-text {
-  -webkit-box-shadow: 2px 0px 5px grey;
-  -moz-box-shadow: 2px 0px 5px grey;
-  box-shadow: 2px 0px 5px grey;
-  -webkit-border-radius: 4px 4px;
-  -moz-border-radius: 4px / 4px;
-  border-radius: 4px / 4px;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px / 5px;
+  border-radius: 5px / 5px;
   padding: 10px;
   margin-top: 3px;
+}
+
+/* line 42, sass/qabank.scss */
+.question-listing {
+  padding: 20px;
+  border-bottom: 1px solid #ededed;
+  display: block;
+  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-size: 20px;
 }
