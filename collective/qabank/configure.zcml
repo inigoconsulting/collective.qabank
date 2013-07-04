@@ -12,7 +12,7 @@
     <includeDependencies package="." />
     <grok:grok package="." />
     <i18n:registerTranslations directory="locales" />
-    <browser:resourceDirectory name="your.product" directory="static"/>
+    <browser:resourceDirectory name="collective.qabank" directory="static"/>
 
     <include package=".behavior"/>
     <include package=".portlet"/>
