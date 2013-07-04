@@ -3,4 +3,31 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
+@import "compass/css3/box-shadow";
+@import "compass/reset/utilities";
+@import "compass/css3";
+
+#content fieldset.qabank-fieldset
+{
+    border-width: 0;
+}
+
+@mixin block 
+{
+    @include border-radius(4px, 4px);
+    padding: 10px;
+
+}
+.answer-title
+{
+    @include block;
+    background-color:rgb(198, 198, 198);
+
+}
+.answer-text
+{
+    @include single-box-shadow(grey, 2px);
+    @include block;
+    margin-top: 3px;
+
+}
