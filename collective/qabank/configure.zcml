@@ -12,6 +12,7 @@
     <includeDependencies package="." />
     <grok:grok package="." />
     <i18n:registerTranslations directory="locales" />
+    <browser:resourceDirectory name="your.product" directory="static"/>
 
     <include package=".behavior"/>
     <include package=".portlet"/>
