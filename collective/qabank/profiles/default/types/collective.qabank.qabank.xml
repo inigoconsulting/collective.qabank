@@ -33,7 +33,11 @@
   <property name="immediate_view">view</property>
   <property name="default_view">view</property>
   <property name="view_methods">
-   <element value="view"/>
+      <element value="view"/>
+      <element value="folder_tabular_view"/>
+      <element value="folder_summary_view"/>
+      <element value="folder_listing"/>
+      <element value="folder_full_view"/>
   </property>
   <property name="default_view_fallback">False</property>
   <property name="add_permission">cmf.AddPortalContent</property>
